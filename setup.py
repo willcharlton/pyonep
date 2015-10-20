@@ -23,7 +23,7 @@ setup(name='pyonep',
       description='Python bindings for Exosite API over HTTP JSON RPC.',
       long_description=open('README.md').read() + '\n\n' +
                        open('HISTORY.md').read(),
-      packages=['pyonep', 'pyonep.portals'],
+      packages=['pyonep', 'pyonep.portals', 'pyonep.device_client'],
       package_dir={'pyonep': 'pyonep'},
       keywords=['exosite', 'onep', 'one platform', 'm2m']
       )
